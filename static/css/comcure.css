@@ -1,0 +1,206 @@
+table {
+    border-spacing: 0;
+}
+.login {
+    width: 340px;
+    height: 340px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin:-70px 0 0 -170px;
+}
+.login .logo {
+    width: 216px;
+    height: 51px;
+    display: block;    
+    margin: 0 0 10px 70px;
+    background: url('../../static/images/logo.png') left no-repeat;    
+}
+.login #login_error {
+    display: none;
+}
+.logout {
+    float: right;
+    font-size: 10pt;
+}
+#comcure .logo {
+    width: 216px;
+    height: 51px;
+    display: block;
+    text-align: right;
+    margin: 8px 0 2px;
+    background: url('../../static/images/logo.png') left no-repeat;
+    font-size: 8.5pt;
+    color: #ddd;
+    text-decoration: none;
+}
+.domain {
+    float: left;
+    margin: 15px 7px;
+}
+.service {
+    float: left;
+}
+.total_price {
+    float: right;
+}
+.upgrade_plan {    
+    text-align: center;
+}
+.comcure,
+.events,
+#priv_key, 
+#priv-key-desc, 
+#form-preferences, 
+#flash-message, 
+#list_snapshots, 
+#list_databases,
+#save-database {
+    display: none;
+}
+#flash-message {
+    min-width: 25%;
+    right: 5px;
+    top: 0;
+    position: absolute;
+}
+#private-key {
+    text-decoration: underline;
+}
+#private-key:hover {
+    text-decoration: none;
+}
+#preferences {
+    margin: 0 0 15px 10px;
+}
+#snapshots {
+    width: 200px;
+    padding: 3px;
+    display: none;
+}
+#snapshots optgroup {
+    color: #464646;    
+    padding-bottom: 3px;
+    font-weight: normal;
+    
+}
+.list_snapshots, 
+.events, 
+.websites, 
+.backups, 
+.usage, 
+.list_databases {
+    background: #fff;
+    width: 100%;
+    font-family: Georgia, "Times New Roman", "Bitstream Charter", Times, serif;
+    font-size: 12px;
+}
+.list_snapshots tr th, 
+.list_databases tr th, 
+.events tr th, 
+.websites tr th, 
+.backups tr th, 
+.usage tr th {
+    background: #eee;
+    text-align: left;
+    padding: 8px;    
+}
+.list_snapshots tr td, 
+.list_databases tr td, 
+.events tr td, 
+.websites tr td, 
+.backups tr td, 
+.uasge tr td {
+    border-top: 1px #ccc solid;
+    padding: 8px;
+}
+#website-settings, #database-settings {
+    display: inline-block;
+    margin-right: 10px;
+    cursor: pointer;
+}
+#comcure-settings .active {
+    color: #464646;
+    cursor: default;
+}
+.comcure-holder table.events,
+.comcure-holder table.overview,
+#comcure-settings,
+#comcure-settings .databases,
+#comcure-settings .install-db-agent,
+#comcure-settings form {
+    display: none;
+}
+#comcure-settings #form-website-settings {
+    display: block;
+}
+#database-list {
+    width: 50px;
+}
+.comcure-holder table tbody tr .restore {
+    text-align: center;
+    width: 200px;
+}
+.comcure-holder table tbody tr .restore a {
+    display: none;
+    margin-right: 5px;
+}
+.comcure-holder table tbody tr td img {
+    float: left;
+    margin: -2px 5px 0 0;
+}
+.comcure-holder table tbody tr td span {
+    margin-bottom: 5px;
+    float: left;
+}
+.comcure-holder table tbody tr td a {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.comcure-holder table tbody tr td a:hover {
+    text-decoration: none;
+}
+.comcure-holder table tr td.head {
+    font-weight: bold;
+    width: 200px;
+    padding-left: 5px;
+}
+.comcure-holder .loader {
+    display: none;
+    margin: 5px 0 5px 50%;
+}
+.gauge {
+    background-color: #ddd;
+    background-repeat: repeat-x;
+    border: 1px solid #bfbfbf;
+    padding-right: 5px;
+}
+.gauge .gauge_bar {
+    white-space: nowrap;
+    padding: 9px 0 9px 5px;
+    background-color: #eee;
+    float: left;
+}
+.comcure-loader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 340px;
+    font-weight: bold;
+    background-color: #fff;
+    padding: 20px;
+    color: #000;
+    margin: -20px 0 0 -170px;
+    border: 3px solid #777;
+    box-shadow: 0px 0px 15px #222;
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    overflow: hidden;    
+    text-align: center;    
+    font-size: 16px;
+}
+.wpspin {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}

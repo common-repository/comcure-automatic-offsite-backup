@@ -1,0 +1,1 @@
+CREATE TABLE IF NOT EXISTS `%scomcure` (`id` int(11) NOT NULL AUTO_INCREMENT, `token` char(32) CHARACTER SET latin1 NOT NULL, PRIMARY KEY (`id`), UNIQUE KEY `token` (`token`)) ENGINE=InnoDB DEFAULT CHARSET=utf8
